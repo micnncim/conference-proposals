@@ -108,7 +108,9 @@ So I'd like to discuss this.
 
 > Tag your talk to make it easier for event organizers to be able to find. Examples are "ruby, javascript, rails".
 
+```
 go, grpc, microservice, monorepo, cloud-native
+```
 
 ## Profile Details
 
@@ -130,4 +132,5 @@ micnncim
 
 ```
 I'm an university student and I've been developing the products of some companies as a backend engineer.
+My interests are developer DevOps, productivity and automation.
 ```
