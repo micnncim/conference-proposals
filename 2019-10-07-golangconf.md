@@ -46,7 +46,10 @@ In the session, I introduce my solution.
 > You should make the description of your talk as compelling and exciting as possible. Remember, you're selling both the organizers of the events to select your talk, as well as trying to convince attendees your talk is the one they should see.
 
 ```
-Recently, many developers are working with microservices. And Go is one of most popular languages in term of microservice architecture. From a point of view about infrastructure (e.g. How should we deploy microservices?, How should we monitor system?), many discussions have gone, but we have less discussion on development of microservices. So I'd like to talk about this, specially Go today, from the experience with development of some products with microservice architecture.
+Recently, many developers are working with microservices.
+And Go is one of most popular languages in term of microservice architecture.
+From a point of view about infrastructure (e.g. How should we deploy microservices?, How should we monitor system?), many discussions have gone, but we have less discussion on development of microservices.
+So I'd like to talk about this, specially Go today, from the experience with development of some products with microservice architecture.
 
 This session aims to those who interested in development of microservice with Go.
 
