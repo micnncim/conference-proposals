@@ -99,7 +99,9 @@ I welcome Q&A and discussion with attendees. I'd like to give my ideas and also 
 > This field supports Markdown. Notes will only be seen by reviewers during the CFP process. This is where you should explain things such as technical requirements, why you're the best person to speak on this subject, etc...
 
 ```
-I've been developing some products of microservice architecture with Go and gRPC on Kubernetes. While the discussions on infrastructure are interesting, I also love talking how developers work. So I'd like to discuss this.
+I've been developing some products of microservice architecture with Go and gRPC on Kubernetes.
+While the discussions on infrastructure are interesting, I also love talking how developers work.
+So I'd like to discuss this.
 ```
 
 ### Tags
