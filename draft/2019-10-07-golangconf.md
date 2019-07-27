@@ -83,7 +83,7 @@ In this section, I'll introduce how Go and gRPC works in microservices.
 
 - The difference of REST and gRPC
 - Which/How should we develop?
-- Commonize the same process in gRPC
+- Commonize the same processes in gRPC
 - The best practices, tips and tricks
 
 ### 4. Monorepo with microservices (15min)
