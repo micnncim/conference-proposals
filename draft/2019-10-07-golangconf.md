@@ -20,9 +20,10 @@ Microservices empowered by Go, gRPC and Monorepo
 ```
 Development of the microservice architecture is a hard way.
 Adopting Go and gRPC, we can develop scalable microservices.
-And our focus is how we work. Whether should we employ monorepo or polyrepo?
+And our focus is how we work.
+Whether should we employ monorepo or polyrepo?
 How should we manage libraries, build and deployment?
-In the session, I introduce my solution.
+In the session, I introduce my answer to the question from my experience.
 ```
 
 ### Talk Format
@@ -49,6 +50,9 @@ In the session, I introduce my solution.
 Recently, many developers are working with microservices.
 And Go is one of most popular languages in term of microservice architecture.
 From a point of view about infrastructure (e.g. How should we deploy microservices?, How should we monitor system?), many discussions have gone, but we have less discussion on development of microservices.
+If you adopt polyrepo, we need to sync the versions of libraries and duplicate some code (sometimes a lot!).
+On the other hand, we can avoid the problems by using monorepo.
+In addition, monorepo is good for Go and gRPC (and also other code generation).
 So I'd like to talk about this, specially Go today, from the experience with development of some products with microservice architecture.
 
 This session aims to those who interested in development of microservice with Go.
@@ -70,11 +74,17 @@ Just my self introduction.
 
 In this section, I'll introduce why we work with the microservice architecture, and why we adopt Go for microservices.
 
+- Monolith vs Microservice: Pros and Cons
+- Go loves microservices. Why?
+
 ### 3. Go with gRPC (10min)
 
-In this section, I'll explain the difference of REST and gRPC.
-Which/How should we develop?
-And I'll introduce the best practices, tips and tricks from my experiences.
+In this section, I'll introduce how Go and gRPC works in microservices.
+
+- The difference of REST and gRPC
+- Which/How should we develop?
+- Commonize the same process in gRPC
+- The best practices, tips and tricks
 
 ### 4. Monorepo with microservices (15min)
 
@@ -82,6 +92,7 @@ In this section, I'll focus on development with monorepo, and talk about how we 
 
 - Monorepo vs Polyrepo: Pros and Cons
 - Monorepo loves Go and gRPC. Why?
+- How we should structure packages in monorepo?
 - Share code, avoid duplicate and disharmony
 - Best practices of development with monorepo
 
@@ -132,5 +143,6 @@ micnncim
 
 ```
 I'm an university student and I've been developing the products of some companies as a backend engineer.
+Contributed to some cloud native software.
 My interests are developer DevOps, productivity and automation.
 ```
